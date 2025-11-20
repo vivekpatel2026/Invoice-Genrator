@@ -1,0 +1,77 @@
+/* Custom CSS for Invoice Template */
+
+/* Main Container Styling */
+.invoice-container {
+    max-width: 900px; /* Standard A4-like width for a web view */
+    min-height: 1100px; /* Gives a document feel */
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Header and Title */
+.invoice-title {
+    color: #007bff; /* Primary blue color */
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.company-name {
+    color: #555;
+}
+
+.company-logo {
+    max-height: 70px;
+    width: auto;
+}
+
+/* Section Titles */
+.section-title {
+    color: #6c757d; /* Muted color for headings */
+    font-size: 1.1rem;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #e9ecef;
+    margin-bottom: 10px;
+}
+
+/* Details Boxes (like Bank Details) */
+.account-details-box {
+    background-color: #f8f9fa; /* Light gray background */
+    border: 1px dashed #ced4da;
+}
+
+/* Items Table */
+.invoice-table thead th {
+    background-color: #007bff;
+    color: white;
+    border-color: #0056b3;
+    font-weight: 600;
+}
+
+/* Financial Summary */
+.financial-summary-table tr td {
+    padding: 8px;
+}
+
+.financial-summary-table .total-row td {
+    background-color: #d1ecf1; /* Light info blue */
+    border-top: 2px solid #007bff;
+    font-weight: bold;
+    color: #0c5460;
+}
+
+/* Notes Section */
+.notes-box {
+    background-color: #fff3cd; /* Light warning yellow */
+    border: 1px solid #ffeeba;
+    font-style: italic;
+    color: #856404;
+    font-size: 0.9rem;
+}
+
+/* Footer and Signature */
+.signature-line {
+    width: 200px;
+    border-bottom: 1px solid #6c757d;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
