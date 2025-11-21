@@ -4,53 +4,53 @@ import './Template1.css';
 // =========================================================
 // 1. DUMMY DATA FOR TESTING
 // =========================================================
-const dummyInvoiceData = {
-    title: 'PROFORMA INVOICE',
+// const dummyInvoiceData = {
+//     title: 'PROFORMA INVOICE',
 
-    // COMPANY DETAILS (Your Company)
-    companyName: 'Global Software Solutions Ltd.',
-    companyAddress: '404 Innovation Drive, Tech City, London SW1A 0AA',
-    companyPhone: '+44 20 7946 0100',
-    companyLogo: 'https://via.placeholder.com/150x50?text=GSS+LOGO', 
+//     // COMPANY DETAILS (Your Company)
+//     companyName: 'Global Software Solutions Ltd.',
+//     companyAddress: '404 Innovation Drive, Tech City, London SW1A 0AA',
+//     companyPhone: '+44 20 7946 0100',
+//     companyLogo: 'https://via.placeholder.com/150x50?text=GSS+LOGO', 
 
-    // INVOICE DETAILS
-    invoiceNumber: 'PFI-UK-2025-583',
-    invoiceDate: '2025-11-20',
-    paymentDate: '2025-12-05', // 15 days net
+//     // INVOICE DETAILS
+//     invoiceNumber: 'PFI-UK-2025-583',
+//     invoiceDate: '2025-11-20',
+//     paymentDate: '2025-12-05', // 15 days net
 
-    // ACCOUNT DETAILS (Your Bank)
-    accountName: 'GSS Business Current Account',
-    accountNumber: '9876543210',
-    accountIfscCode: 'BARCGB02XXX', // Example SWIFT/BIC code
+//     // ACCOUNT DETAILS (Your Bank)
+//     accountName: 'GSS Business Current Account',
+//     accountNumber: '9876543210',
+//     accountIfscCode: 'BARCGB02XXX', // Example SWIFT/BIC code
 
-    // BILLING DETAILS (Client)
-    billingName: 'Synergy Marketing Agency',
-    billingAddress: '10 Downing Street, Digital Plaza, New York, NY 10001',
-    billingPhone: '+1 212 555 0100',
+//     // BILLING DETAILS (Client)
+//     billingName: 'Synergy Marketing Agency',
+//     billingAddress: '10 Downing Street, Digital Plaza, New York, NY 10001',
+//     billingPhone: '+1 212 555 0100',
 
-    // SHIPPING DETAILS (Client) - Same as billing for services
-    shippingName: 'Synergy Marketing Agency',
-    shippingAddress: '10 Downing Street, Digital Plaza, New York, NY 10001',
-    shippingPhone: '+1 212 555 0100',
+//     // SHIPPING DETAILS (Client) - Same as billing for services
+//     shippingName: 'Synergy Marketing Agency',
+//     shippingAddress: '10 Downing Street, Digital Plaza, New York, NY 10001',
+//     shippingPhone: '+1 212 555 0100',
 
-    // FINANCIALS
-    currencySymbol: '£',
-    tax: 20.0, // VAT rate in the UK
-    items: [
-        { description: 'Consulting Services (Oct 2025)', quantity: 40, unitPrice: 85.00 },
-        { description: 'API Integration & Setup Fee', quantity: 1, unitPrice: 1200.00 },
-        { description: 'Premium Support Subscription (1 Year)', quantity: 1, unitPrice: 500.00 },
-    ],
-    notes: 'Please note the payment terms are 15 days net. All amounts are subject to local tax laws.',
+//     // FINANCIALS
+//     currencySymbol: '£',
+//     tax: 20.0, // VAT rate in the UK
+//     items: [
+//         { description: 'Consulting Services (Oct 2025)', quantity: 40, unitPrice: 85.00 },
+//         { description: 'API Integration & Setup Fee', quantity: 1, unitPrice: 1200.00 },
+//         { description: 'Premium Support Subscription (1 Year)', quantity: 1, unitPrice: 500.00 },
+//     ],
+//     notes: 'Please note the payment terms are 15 days net. All amounts are subject to local tax laws.',
     
-    // Calculated Totals (Ensure these match the item calculations in a real app)
-    // Subtotal = (40*85) + (1*1200) + (1*500) = 3400 + 1200 + 500 = 5100.00
-    subtotal: 5100.00, 
-    // Tax Amount = 20% of 5100 = 1020.00
-    taxAmount: 1020.00,
-    // Total = 5100 + 1020 = 6120.00
-    total: 6120.00,
-};
+//     // Calculated Totals (Ensure these match the item calculations in a real app)
+//     // Subtotal = (40*85) + (1*1200) + (1*500) = 3400 + 1200 + 500 = 5100.00
+//     subtotal: 5100.00, 
+//     // Tax Amount = 20% of 5100 = 1020.00
+//     taxAmount: 1020.00,
+//     // Total = 5100 + 1020 = 6120.00
+//     total: 6120.00,
+// };
 // =========================================================
 
 export default function Template1({ data = dummyInvoiceData }) {
